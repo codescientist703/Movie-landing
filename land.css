@@ -80,12 +80,14 @@ nav{
   .des-content {
     font-size: 12px;
   }
+  #description{
+  	width: 100%;
+  }
 }
 #trailer{
 	padding: 50px 25px 25px;
 	width: 100%;
 	height: 100vh;
-	/* background-color: #272121; */
 	background:  url('https://wallpaperaccess.com/full/1932747.jpg');
 	background-size: cover;
 	background-position: center;
@@ -97,7 +99,7 @@ nav{
 	text-align: center;
 	margin-top: 25px;
 	margin-bottom: 20px;
-	font-size: 40px;
+   text-shadow: 2px 2px #C346DF;
 }
 .trailer-content{
 	width: 80%;
@@ -107,25 +109,7 @@ nav{
 .trailer-content iframe{
 	width: inherit;
 	height: inherit;
-	/* justify-content: center; */
 	margin-left: 20px;
 }
 
-#cast{
-	padding: 50px 25px 25px;
-	width: 100%;
-	height: 100vh;
-	background-color: #272121;
-	color: white;
-}
-.cast-text
-{
-	text-align: center;
-	margin-top: 25px;
-	margin-bottom: 20px;
-	font-size: 40px;
-}
-.card-img
-{
-	
-}
+
